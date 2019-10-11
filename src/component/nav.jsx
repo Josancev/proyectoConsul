@@ -1,6 +1,7 @@
 import React from "react";
 import "./../styles/Home.scss";
 import "../component/style.scss";
+import { Link } from "react-router-dom";
 
 export default class Nav extends React.Component {
     render() {
@@ -16,16 +17,16 @@ export default class Nav extends React.Component {
    		<ul className="list-unstyled components">
    			<p></p>
    			<li className="active">
-   				<a >AGENDA</a>
+   				<Link to="/angendaHoy">AGENDA</Link>
    				<ul className="collapse list-unstyled" id="homeSubmenu">
    					<li>
-   						<a >Agenda de Hoy</a>
+   						<Link to="/agendaHoy">Agenda de Hoy</Link>
    					</li>
    					<li>
-   						<a >Invitar Usuario a Evento</a>
+   						<Link to="/agendaHoy">Invitar a un usuario a un evento</Link>
    					</li>
    					<li>
-   						<a >Reporte</a>
+   						<Link to="/agendaHoy">Reporte</Link>
    					</li>
    				</ul>
    			</li>
@@ -34,33 +35,33 @@ export default class Nav extends React.Component {
    				<a ></a>
    			</li>
    			<li>
-   				<a >MANTENEDORES</a>
+   				<Link to="/agendaHoy">MANTENEDORES</Link>
    				<ul className="collapse list-unstyled" id="pageSubmenu">
    					<li>
-   						<a >Usuarios</a>
+   						<Link to="/agendaHoy">usuarios</Link>
    					</li>
    					<li>
-   						<a >Grupos</a>
+   						<Link to="/agendaHoy">Grupos</Link>
    					</li>
    					<li>
-   						<a >Servicios</a>
+   						<Link to="/agendaHoy">Servicios</Link>
    					</li>
    				</ul>
    			</li>
    			<li>
-   				<a >REPORTES</a>
+   				<Link to="/agendaHoy">REPORTES</Link>
    			</li>
    			<li>
-   				<a >SOPORTE</a>
+   				<Link to="/agendaHoy">SOPORTE</Link>
    			</li>
    		</ul>
 
    		<ul className="list-unstyled CTAs">
    			<li>
-   				<a >DESCARGA REPORTES</a>
+   				<Link to="/agendaHoy">DESCARGA DE REPORTES</Link>
    			</li>
    			<li>
-   				<a >ALERTAS</a>
+   				<Link to="/agendaHoy">ALERTAS</Link>
    			</li>
    		</ul>
    	</nav>
