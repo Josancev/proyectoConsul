@@ -1,6 +1,5 @@
 import React from "react";
 import "./../styles/Home.scss";
-import "../component/style.scss";
 import { Link } from "react-router-dom";
 
 export default class Nav extends React.Component {

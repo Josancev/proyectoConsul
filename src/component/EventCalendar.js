@@ -16,6 +16,18 @@ render() {
 	<FullCalendar
 
 	defaultView="dayGridMonth" plugins= {[dayGridPlugin]}
+
+    events={[
+    { title: 'Test hoy ppopoppdpopofppdfopdfodpfodpfodpfodpfodpfodpfodpfdofpdofpdo', date: '2019-11-10', allDay: true },
+    { title: 'test 2 kjhkfjkldjdlkjkldsfjslkfjsklfjsdklfjdsklfjdsfkldjfkldsjfkldsfjdsklfjdsklfjs', date: '2019-10-11', allDate: true }
+  ]
+  }
+
+
+
+
+
+
 	/>
     </div>
 	</div>
